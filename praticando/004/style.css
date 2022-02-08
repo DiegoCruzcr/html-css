@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(183, 183, 243);
+}
+.header{
+    color: blue;
+    height: auto;
+    width: auto;
+}
+.vermelho {
+    color: #f33;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+    text-align: center;
+  }
+  
+  .amarelo-bg {
+    background: #ffa;
+  }
+  
+  .elegante {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+  }
