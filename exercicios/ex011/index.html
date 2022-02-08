@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:900px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vampos aprender a inserir áudio em HTML5</p>
+    <audio preload="metadata" autoplay controls>
+        <!--Tentativas para reproduzir audio-->
+        <source src="midia/19th Floor - Bobby Richards.mp3" type="audio/mp3">
+        <source src="midia/19th Floor - Bobby Richards.ogg" type="audio/ogg">
+        <source src="midia/19th Floor - Bobby Richards.wave" type="audio/wave">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p><!--Caso nenhuma das 3 opcões dê certo-->
+        <a href="midia/19th Floor - Bobby Richards.mp3" download="midia/19th Floor Bobby Richards.mp3">Clique aqui para realizar o download do arquivo MP3.</a>
+    </audio>
+    
+</body>
+</html>

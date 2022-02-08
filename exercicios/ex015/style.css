@@ -1,0 +1,15 @@
+body{ /* configuração de todo corpo */
+    background-color: lightgoldenrodyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    background-color: darkgoldenrod; /*Fundo de todos h2 ficam da cor darkgoldenrod */
+    color:mar /* Todos h1 ficam azul */
+}
+h2{
+    color: darkred;
+}
+p{
+    text-align: justify;
+}
